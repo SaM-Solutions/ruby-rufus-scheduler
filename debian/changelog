@@ -1,0 +1,5 @@
+ruby-rufus-scheduler (2.0.17-1) UNRELEASED; urgency=low
+
+  * Initial release (Closes: #nnnn)
+
+ -- Vlad Shakhov <v.shakhov@sam-solutions.net>  Thu, 05 Jul 2012 13:03:11 +0300

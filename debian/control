@@ -1,0 +1,19 @@
+Source: ruby-rufus-scheduler
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Vlad Shakhov <v.shakhov@sam-solutions.net>
+Build-Depends: debhelper (>= 7.0.50~), gem2deb (>= 0.3.0~)
+Standards-Version: 3.9.3
+Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-rufus-scheduler.git
+Vcs-Browser: http://anonscm.debian.org/gitweb?p=pkg-ruby-extras/ruby-rufus-scheduler.git;a=summary
+Homepage: http://github.com/jmettraux/rufus-scheduler
+XS-Ruby-Versions: all
+
+Package: ruby-rufus-scheduler
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter,
+ ruby-tzinfo (>= 0.3.23), rake, ruby-rspec (>= 2.7.0)
+Description: job scheduler for Ruby (at, cron, in and every jobs)
+ job scheduler for Ruby (at, cron, in and every jobs).
